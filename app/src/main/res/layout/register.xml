@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    app:cardElevation="10dp"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab31246"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_mail"
+            android:layout_margin="16dp" />
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/email"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimary"
+            android:hint="  E-mail"
+            android:inputType="textEmailAddress"
+            app:met_singleLineEllipsis="true"
+            app:met_baseColor="@color/colorPrimary"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@color/colorPrimary"
+            />
+        </LinearLayout>
+        <!--<Button
+            android:layout_marginTop="10dp"
+            android:id="@+id/email_verification"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SEND LINK FOR VERIFICATION"
+            android:textColor="#fff"
+            android:background="@drawable/roundedcorners"
+            />-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_key"
+            android:layout_margin="16dp" />
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/password"
+            android:layout_marginTop="5dp"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimary"
+            android:hint="  Password"
+            android:inputType="textPassword"
+            app:met_singleLineEllipsis="true"
+            app:met_baseColor="@color/colorPrimary"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@color/colorPrimary"
+            />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_name"
+            android:layout_margin="16dp" />
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/name"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:hint="  Name"
+            android:inputType="text"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimary"
+            app:met_baseColor="@color/colorPrimary"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@color/colorPrimary"
+            app:met_singleLineEllipsis="true" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_phone"
+                android:layout_margin="16dp" />
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/phone_number"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimary"
+            android:hint="  Phone Number"
+            android:inputType="number"
+            app:met_singleLineEllipsis="true"
+            app:met_baseColor="@color/colorPrimary"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@color/colorPrimary"
+            />        </LinearLayout>
+        <!--<Button
+            android:id="@+id/verify_phone"
+            android:layout_marginTop="5dp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/roundedcorners"
+            android:textColor="#fff"
+            android:text="SEND OTP TO E-mail AND PHONE"
+            android:layout_gravity="center"
+            />
+        <LinearLayout
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/otp1"
+                android:layout_width="140dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:hint="Enter Phone OTP"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:inputType="text"
+                android:textColor="@color/colorPrimary"
+                android:textColorHint="@color/colorPrimary"
+                app:met_baseColor="@color/colorPrimary"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="@color/colorPrimary"
+                app:met_singleLineEllipsis="true" />
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/otp2"
+            android:layout_width="140dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="11dp"
+            android:hint="Enter Email OTP"
+            android:layout_gravity="center"
+            android:gravity="center_horizontal"
+            android:inputType="text"
+            android:textColor="@color/colorPrimaryDark"
+            android:textColorHint="@color/colorPrimaryDark"
+            app:met_baseColor="@color/colorPrimary"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@color/colorPrimary"
+            app:met_singleLineEllipsis="true" />
+        </LinearLayout>-->
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
